@@ -1,5 +1,5 @@
 import { DarkTheme, DefaultTheme, ThemeProvider } from '@react-navigation/native';
-import { useFonts, Barlow_300Light, Barlow_400Regular, Barlow_500Medium, Barlow_700Bold } from '@expo-google-fonts/barlow';
+import { useFonts, Barlow_300Light, Barlow_400Regular, Barlow_500Medium, Barlow_700Bold, Barlow_900Black } from '@expo-google-fonts/barlow';
 import { Stack } from 'expo-router';
 import * as SplashScreen from 'expo-splash-screen';
 import { StatusBar } from 'expo-status-bar';

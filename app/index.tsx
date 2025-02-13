@@ -1,12 +1,15 @@
 import NoiseBackground from '@/components/NoiseBackground';
-import { Text } from 'react-native';
+import { Week } from '@/components/Week';
 import { SafeAreaView } from 'react-native-safe-area-context';
+import { Text } from 'react-native';
 
 export default function Home() {
     return (
-        <SafeAreaView className='flex-1 justify-center items-center'>
+        <SafeAreaView className='flex-1'>
             <NoiseBackground />
-            <Text className='text-2xl text-selected font-barlow-700'>Home</Text>
+           
+            <Week />
+    
         </SafeAreaView>
     );
 }
