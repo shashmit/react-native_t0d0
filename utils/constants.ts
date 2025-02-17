@@ -16,7 +16,7 @@ dayjs.extend(isoWeek);
   export type weekDays = typeof weekDays[number];
 
   export const globalFormatter = 'YYYY-MM-DD'
-  export const localFormatter = `MMMM, DD YYYY - h:mma`
+  export const localFormatter = `MMMM, DD YYYY`
   export const weekDayFormatter = 'dddd'
 
   export const weekDays = [...Array(7).keys()].map((key)=>{
